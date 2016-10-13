@@ -1,0 +1,6 @@
+<view>
+    <text class="douban">{{pass_data.title}}</text>
+</view>
+<view>
+    <text class="douban">{{pass_data.description}}</text>
+</view>

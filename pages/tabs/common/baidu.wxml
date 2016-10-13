@@ -1,0 +1,9 @@
+<view>
+    <text class="baidu">{{pass_data.title}}</text>
+</view>
+<view>
+<image src="{{pass_data.head_pic_url}}" style="width: 370rpx;" mode="aspectFit"></image>
+</view>
+<view>
+    <text class="baidu">{{pass_data.description}}</text>
+</view>

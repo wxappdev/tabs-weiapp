@@ -1,0 +1,14 @@
+<template name="douban">
+    <include src="douban.wxml" />
+</template>
+
+
+<template name="baidu">
+    <include src="baidu.wxml" />
+</template>
+
+
+<template name="taobao">
+    <include src="taobao.wxml" />
+</template>
+

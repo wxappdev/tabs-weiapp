@@ -1,0 +1,5 @@
+<import src="common/subpage.wxml"/>
+<view class="tabs">
+    <view wx:for="{{tabs}}" wx:for-item="t" id="{{t.name}}" class="tab {{t.name == active_tab ? 'active' : ''}}" bindtap="switchTap" >{{t.display_name}}</view>
+</view>
+<template is="{{active_tab}}" data="{{pass_data: pass_data}}"/>

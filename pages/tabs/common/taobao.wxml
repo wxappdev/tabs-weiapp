@@ -1,0 +1,7 @@
+<view>
+    <text class="taobao">{{pass_data.title}}</text>
+</view>
+<view>
+    <text class="taobao">{{pass_data.description}}</text>
+</view>
+<view wx:for="{{pass_data.products}}" wx:for-item="product">{{product.name}}  {{product.price}}</view>

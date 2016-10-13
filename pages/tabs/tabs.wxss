@@ -1,0 +1,21 @@
+.tabs {
+    width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    display: flex;
+}
+
+.tab {
+    width: 250rpx;
+    text-align: center;
+    height: 80rpx;
+    line-height: 80rpx;
+    font-size: 30rpx;
+    background-color: lightgrey;
+    border-bottom: 3px lightgrey solid;
+    transition: ease-out 0.3s;
+}
+
+.active {
+    border-bottom: 3px green solid;     
+}
